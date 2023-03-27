@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ItemDetailsActivity">
+    <include layout="@layout/custom_toolbar"/>
+
+    <ImageView
+        android:id="@+id/iv_itemDetailsImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/thumbnail_details_image"
+        android:layout_margin="@dimen/activity_item_details_margins"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_itemDetailsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#7C7979"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:hintTextColor="#777171"
+        android:layout_margin="@dimen/activity_item_details_margins">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_itemDetailsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="TESTING TESTING TESTING TESTING"
+            android:textAlignment="center"
+            android:textSize="@dimen/activity_item_details_text_size"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/activity_item_details_marginTop"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_item_details_marginTop"
+        android:text="@string/delete"
+        android:textSize="@dimen/activity_item_details_text_size"
+        android:textStyle="bold"
+        android:backgroundTint="#975656"
+        android:layout_margin="@dimen/activity_item_details_margins"/>
+
+    <Button
+        android:id="@+id/btn_chooseImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_item_details_marginTop"
+        android:text="@string/choose_image"
+        android:textSize="@dimen/activity_item_details_text_size"
+        android:textStyle="bold"
+        android:backgroundTint="#877070"
+        android:layout_margin="@dimen/activity_item_details_margins"/>
+
+</LinearLayout>

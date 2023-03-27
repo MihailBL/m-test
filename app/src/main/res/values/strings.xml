@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MCATest</string>
+    <string name="thumbnail_image">thumbnail image</string>
+    <string name="thumbnail_details_image">Thumbnail details image</string>
+    <string name="delete">DELETE</string>
+    <string name="toolbar_btn_alternative">toolbar btn alternative</string>
+    <string name="toolbar_title_text_main_activity">Home</string>
+    <string name="toolbar_title_text_item_details_activity">Details</string>
+    <string name="toolbar_title_text_item_image_view">Image</string>
+    <string name="toolbar_btn_save">SAVE</string>
+    <string name="image_full_screen">image full screen</string>
+    <string name="choose_image">CHOOSE IMAGE</string>
+    <string name="are_you_sure_you_want_to_delete_the_item">Are you sure you want to delete the item?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>

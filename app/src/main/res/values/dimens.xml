@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="recycler_view_main_marginTOP">5dp</dimen>
+    <dimen name="recycler_view_main_item_padding">10dp</dimen>
+
+    <dimen name="activity_item_details_margins">14dp</dimen>
+    <dimen name="activity_item_details_text_size">19sp</dimen>
+    <dimen name="activity_item_details_marginTop">12dp</dimen>
+
+    <dimen name="activity_item_image_full_margins">5dp</dimen>
+</resources>
